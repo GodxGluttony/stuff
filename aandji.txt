@@ -1,0 +1,4 @@
+<?php
+session_start();
+$god=$_SESSION['god'];
+?>
