@@ -23,7 +23,7 @@
         {
            $ime=$_POST['ime'];
            setcookie("ime",$ime,time()+60);
-           header("Location: markoo.php");
+           header("Location: markoo.php");//ide na drugi php,sl slika
         }
         else echo "izabeite ucenika!!!";
      }
